@@ -1,0 +1,59 @@
+body {
+    background-color: #e9ffff;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+}
+
+form {
+    position: absolute;
+    width: 400px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFF00;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding-top: 1%;
+}
+
+label {
+    margin: 0 auto;
+    width: 200px;
+    padding-left: 28%;
+    font-weight: 600;
+}
+
+textarea {
+    width: 87%;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 10px;
+    outline: 0;
+    resize: none;
+}
+
+.character-output, .word-output, .sentence-output {
+    font-size: 16px;
+    display: inline-flex;
+    padding: 0 28%;
+}
+
+.character-sum, .word-sum, .sentence-sum {
+    background-color: #5cc7fb;
+    border-radius: 12px;
+    color: white;
+    padding: 0 5px;
+    margin-left: 5px;
+}
